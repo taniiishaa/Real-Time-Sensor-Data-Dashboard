@@ -50,7 +50,7 @@ This project demonstrates the complete IoT pipeline — from data ingestion to r
 ├── 📄 README.md            # Project documentation
 
 ```
-##📡 Expected MQTT Data Format
+## 📡 Expected MQTT Data Format
 
 The dashboard expects sensor data in the following JSON format:
 
@@ -63,7 +63,7 @@ The dashboard expects sensor data in the following JSON format:
 ```
 Make sure your IoT device or simulator publishes data in this format.
 
-##⚙️ Configuration
+## ⚙️ Configuration
 
 You can configure the MQTT connection directly from the UI:
 
@@ -79,17 +79,17 @@ Default values are pre-filled for convenience.
 
 ## ▶️ How to Run the Project
 
-# 1️⃣ Install Dependencies
+1️⃣ Install Dependencies
 ```text
 pip install -r requirements.txt
 ```
 
-# 2️⃣ Run the Application
+ 2️⃣ Run the Application
 ```text
 python app.py
 ```
 
-# 3️⃣ Open in Browser
+ 3️⃣ Open in Browser
 ```text
 http://localhost:8051
 ```
@@ -106,7 +106,7 @@ http://localhost:8051
 
 ---
 
-##🧠 Learning Outcomes
+## 🧠 Learning Outcomes
 
 This project helps you understand:
 - MQTT publish-subscribe architecture
@@ -116,7 +116,7 @@ This project helps you understand:
 
 Interactive data visualization using Plotly
 
-##🚀 Use Cases
+## 🚀 Use Cases
 
 - IoT sensor monitoring
 - Smart home dashboards
@@ -124,7 +124,7 @@ Interactive data visualization using Plotly
 - Academic & mini-projects
 - IoT + Data Visualization demos
 
-##🧩 Future Enhancements
+## 🧩 Future Enhancements
 
 - 📱 Mobile-responsive UI
 - ☁️ Cloud MQTT broker support
@@ -132,14 +132,14 @@ Interactive data visualization using Plotly
 - 📊 More sensor types
 - 🔔 Alert system for threshold values
 
-##👩‍💻 Author
+## 👩‍💻 Author
 
 Tanisha Chaudhary
 -🎓 B.Tech CSE Student
 -💡 Aspiring Software Engineer
 -📍 Haryana, India
 
-##⭐ Show Some Love
+## ⭐ Show Some Love
 
 If you found this project helpful or inspiring:
 - ⭐ Star this repository
