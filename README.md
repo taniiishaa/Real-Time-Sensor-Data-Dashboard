@@ -135,9 +135,9 @@ Interactive data visualization using Plotly
 ## 👩‍💻 Author
 
 Tanisha Chaudhary
--🎓 B.Tech CSE Student
--💡 Aspiring Software Engineer
--📍 Haryana, India
+- 🎓 B.Tech CSE Student
+- 💡 Aspiring Software Engineer
+- 📍 Haryana, India
 
 ## ⭐ Show Some Love
 
