@@ -1,40 +1,40 @@
-# 🌐 IoT-Vision — Real-Time Sensor Data Dashboard
+# 🌐 Real-Time-Sensor-Data-Dashboard
 
-> *Turning live sensor data into meaningful insights — in real time.*
+> *A live IoT dashboard that transforms real-time sensor data into clear, interactive visual insights.*
 
 ---
 
 ## 📌 Project Overview
 
-**IoT-Vision** is a real-time IoT monitoring dashboard built using **Python, MQTT, and Plotly Dash**.  
-It subscribes to an MQTT broker, receives live **temperature and humidity** data from sensors, and visualizes it using **interactive gauges and trend graphs**.
+**Real-Time-Sensor-Data-Dashboard** is a Python-based IoT monitoring application that visualizes **live temperature and humidity data** using an interactive web dashboard.
 
-This project demonstrates **end-to-end IoT data flow** — from message ingestion to real-time visualization — making it ideal for learning and showcasing IoT + Data Visualization skills.
+The system subscribes to an **MQTT broker**, receives sensor data in real time, and displays it through **gauges and trend graphs** using **Dash and Plotly**.  
+This project demonstrates the complete IoT pipeline — from data ingestion to real-time visualization.
 
 ---
 
-## ✨ Key Highlights
+## ✨ Key Features
 
 | Feature | Description |
 |------|------------|
-| 🔄 Real-Time Updates | Live data updates every few seconds |
-| 📡 MQTT Integration | Subscribes to MQTT topics for sensor data |
-| 🌡️ Live Gauges | Temperature & humidity gauges |
-| 📈 Trend Graphs | Line charts showing sensor history |
-| 🧵 Thread-Safe | Uses threading for stable MQTT handling |
-| 🎨 Clean UI | Minimal, modern Dash interface |
+| 🔄 Real-Time Updates | Automatically refreshes live sensor data |
+| 📡 MQTT Connectivity | Subscribes to MQTT topics |
+| 🌡️ Live Gauges | Displays current temperature & humidity |
+| 📈 Trend Charts | Shows historical data in line graphs |
+| 🧵 Thread-Safe Design | Stable data handling using threading |
+| 🎨 Clean UI | Simple, minimal, and user-friendly interface |
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Category | Technologies |
-|-------|-------------|
+| Category | Tools |
+|------|------|
 | Programming Language | Python 🐍 |
 | Communication Protocol | MQTT |
 | Dashboard Framework | Dash |
-| Visualization | Plotly (Graph Objects & Express) |
-| Data Handling | Pandas |
+| Data Visualization | Plotly |
+| Data Processing | Pandas |
 | Concurrency | Threading |
 
 ---
@@ -42,8 +42,9 @@ This project demonstrates **end-to-end IoT data flow** — from message ingestio
 ## 📂 Project Structure
 
 ```text
-📁 IoT-Vision/
+📁 Real-Time-Sensor-Data-Dashboard/
 │
-├── 📄 app.py                # Main dashboard & MQTT logic
-├── 📄 README.md             # Project documentation
-├── 📄 requirements.txt      # Required Python libraries
+├── 📄 iot_dashboard.py     # Main MQTT logic & Dash application
+├── 📄 requirements.txt     # Python dependencies
+├── 📄 .gitignore           # Ignored files for Git
+├── 📄 README.md            # Project documentation
