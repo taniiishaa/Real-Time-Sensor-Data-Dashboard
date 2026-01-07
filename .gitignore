@@ -1,0 +1,19 @@
+# Python bytecode (compiled files)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+
+# VS Code settings
+.vscode/
+
+# Data and logs
+*.log
+.DS_Store
+
+# Dash/Flask temporary files
+.pytest_cache/
